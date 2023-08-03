@@ -41,7 +41,7 @@ And also the voltage gain of the amplifier circuit MUST be equal too or greater 
 
 The function of VCCS is to get current sources that can be controlled using the input voltage, so the current doesn't exceed some limit. The VCCS that I used is a basic Howland Circuit that consists of 4 resistors and an Op-amp. 
 
-![image](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/ee5d6c8f-874c-435a-906c-bb4fb07d9d83)
+![image](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/3201c667-718c-4ebc-8fc2-7bc18fc961b7)
 
 With 500mV input I get a current of around 0.3 mA, with the highest current is 0.5 mA, which is above 1 mA so it safe for human body
 
@@ -50,11 +50,15 @@ With 500mV input I get a current of around 0.3 mA, with the highest current is 0
 
 ### Instrument amplifier
 
+
 ### AC to DC converter
 
 
 ## Results
 
+
 ### Using Resistor
 
+
 ### Human body
+
