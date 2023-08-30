@@ -32,15 +32,15 @@ With:
 
 F = 1/2πRC 
 
-Beacuse I use 1 nF with 4.7kΩ so I should get around 33.86 kHz, and based on the reading of the oscilloscope (I used Analog Discovery 2) get similar results which are 33.55 kHz
-
-![33k wein bridge](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/7e5e3506-c464-414a-a9db-cca1e0fca692)
-
 And also the voltage gain of the amplifier circuit MUST be equal too or greater than three “Gain = 3” for oscillations to start. Because the input is 1/3 of the output, so R1 and R2 and for a non-inverting amplifier need to be 2/3, this is given as the ratio 1+(R1/R2).
 
 I also add a voltage divider to lower the amplitude, and add buffer,
 
-![image](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/d1861df9-e475-465f-a9b5-a502ca2a8b1b)
+![image](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/091bc0f3-ed61-400e-b6a6-a0a96933f466)
+
+Beacuse I use 1 nF with 4.7kΩ so I should get around 33.86 kHz, and based on the reading of the oscilloscope (I used Analog Discovery 2) get similar results which are 33.55 kHz
+
+![33k wein bridge](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/7e5e3506-c464-414a-a9db-cca1e0fca692)
 
 
 
