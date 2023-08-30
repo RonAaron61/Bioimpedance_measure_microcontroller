@@ -36,7 +36,7 @@ And also the voltage gain of the amplifier circuit MUST be equal too or greater 
 
 I also add a voltage divider to lower the amplitude, and add buffer,
 
-![image](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/091bc0f3-ed61-400e-b6a6-a0a96933f466)
+![image](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/6222594d-0f26-4aa0-a34c-f740887dece3)
 
 Beacuse I use 1 nF with 4.7kΩ so I should get around 33.86 kHz, and based on the reading of the oscilloscope (I used Analog Discovery 2) get similar results which are 33.55 kHz
 
