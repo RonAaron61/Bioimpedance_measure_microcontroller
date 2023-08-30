@@ -38,6 +38,11 @@ Beacuse I use 1 nF with 4.7kΩ so I should get around 33.86 kHz, and based on th
 
 And also the voltage gain of the amplifier circuit MUST be equal too or greater than three “Gain = 3” for oscillations to start. Because the input is 1/3 of the output, so R1 and R2 and for a non-inverting amplifier need to be 2/3, this is given as the ratio 1+(R1/R2).
 
+I also add a voltage divider to lower the amplitude, and add buffer,
+
+![image](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/d1861df9-e475-465f-a9b5-a502ca2a8b1b)
+
+
 
 ### VCCS
 
@@ -52,11 +57,11 @@ With 500mV input I get a current of around 0.3 mA, with the highest current is 0
 
 ### Instrument amplifier
 
-Instrument amplifier function as an amplifier from two different signal inputs. For the instrument amplifier (IA), I use AD620 IC. One IA is connected to a reference resistor from VCCS, and the other one is placed at the observed object with the same gain value.
+The instrument amplifier function as an amplifier from two different signal inputs. For the instrument amplifier (IA), I use AD620 IC. One IA is connected to a reference resistor from VCCS, and the other one is placed at the observed object with the same gain value.
 
 ![image](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/cf48099c-1c1c-4573-bc30-73e7e69c18d0)
 
-On the second IA, there's also High Pass Filter because the signal from the human body will also contain a DC signal, so we will remove it using High Pass Filter, I use first-order HPF with a 159 Hz cut-off frequency
+On the second IA, there's also a High Pass Filter because the signal from the human body will also contain a DC signal, so we will remove it using a High Pass Filter, I use first-order HPF with a 159 Hz cut-off frequency
 
 ### AC to DC converter
 
@@ -64,7 +69,7 @@ Because the output of the signal is still an AC signal, we need to convert it to
 
 ![image](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/4128837d-0dfe-4be0-a1e1-d2c8b6e17acb)
 
-At first, I don't use a resistor and when I check using a multimeter I get a satisfied result, but when it was connected to the microcontroller ADC it suddenly when higher than it should be. So because a multimeter usually have around 1m ohm impedance, I try connecting a 1m ohm resistor to it and get a kinda satisfied result. But there's a second problem which is it can't read lower than 100mV, but when I read it using a multimeter I can get the actual result i.e. 82mV. So I still don't know what caused it. So for now I cant read impedance lower than 100 Ω. 
+At first, I didn't use a resistor and when I checked using a multimeter I get a satisfied result, but when it was connected to the microcontroller ADC it suddenly when higher than it should have. So because a multimeter usually has around 1m ohm impedance, I tried connecting a 1m ohm resistor to it and get a kinda satisfied result. But there's a second problem which is it can't read lower than 100mV, but when I read it using a multimeter I can get the actual result i.e. 82mV. So I still don't know what caused it. So for now I can't read impedance lower than 100 Ω. 
 
 ## Results
 
