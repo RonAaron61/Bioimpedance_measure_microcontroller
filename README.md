@@ -6,11 +6,22 @@ Measuring bioimpedance using a microcontroller
 A tool for measuring a person's bioimpedance, using a microcontroller as a signal processor and reader of measurement results, and displays it. The device that is made consists of a signal generator that uses a Wien bridge oscillator circuit to produce a 33 kHz sine wave signal, then VCCS to convert the input voltage into a current source so that it is safe when it enters the body, then the signal is read using an instrument amplifier as an amplifier so that it is easy to read, and converted to a DC signal for reading
 
 
-In this project, I created 2 different circuits, one using [wien bridge oscillator](#1) and using [AD9833](#2) module. 
+In this project, I created 2 different circuits, one using [wien bridge oscillator](#Using-wein's-bridge-oscillator) and using [AD9833](#Using-AD9833) module. 
 
-# 1
+# Using wein's bridge oscillator
 
-## Schematic (using wein's bridge oscillator)
+### List of content
+
+- [Schematic](##Schematic)
+- [Components](##Components)
+- [Poisitve to negative voltage](###Positive-toNegative-Voltage-Converter)
+- [Wein's Bridge Oscillator](###Wein's-Bridge-Oscillator)
+- [VCCS](###VCCS)
+- [Instrument Amplifier](###Instrument-Amplifier)
+- [AC tp DC](###AC-to-DC-converter)
+- [Results](##Results)
+
+## Schematic 
 
 (Image)
 
@@ -109,11 +120,11 @@ As mentioned above there's still a problem that I haven't figured out yet. But h
 ![100 ohm](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/0406ae25-db73-45f7-b508-b2471e4d5e26)
 
 
-# 2
+# Using AD9833
 
 after using wein's bridge oscillator I want to test the same with ad9833 module as the function generator to produce sine wave. The schamatic is still mostly the same
 
-## Schematoc (Using AD9833)
+## Schematoc 
 
 (image)
 
