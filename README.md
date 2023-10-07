@@ -8,7 +8,7 @@ A tool for measuring a person's bioimpedance, using a microcontroller as a signa
 
 In this project, I created 2 different circuits, one using [wien bridge oscillator](#1) and using [AD9833](#2) module. 
 
-#1
+# 1
 
 ## Schematic (using wein's bridge oscillator)
 
@@ -109,7 +109,7 @@ As mentioned above there's still a problem that I haven't figured out yet. But h
 ![100 ohm](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/0406ae25-db73-45f7-b508-b2471e4d5e26)
 
 
-#2
+# 2
 
 after using wein's bridge oscillator I want to test the same with ad9833 module as the function generator to produce sine wave. The schamatic is still mostly the same
 
