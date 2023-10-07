@@ -21,7 +21,8 @@ A tool for measuring a person's bioimpedance, using a microcontroller as a signa
 
 ## Schematic 
 
-(Image)
+![Schematic_Bioimpedance_2023-10-07](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/cb31a872-894d-475b-b052-1f7df286cc38)
+
 
 ## Components
 
