@@ -8,7 +8,7 @@ A tool for measuring a person's bioimpedance, using a microcontroller as a signa
 
 In this project, I created 2 different circuits, one using [wien bridge oscillator](#using-weins-bridge-oscillator) and using [AD9833](#using-AD9833) module.
 
-for the full documentation: [Using wien bridge oscillator](WienBridge.md) and using [AD9833](AD9833.md)
+for the full documentation: Using ['wien's bridge oscillator'](WienBridge.md) and using ['AD9833'](AD9833.md)
 
 ---
 
