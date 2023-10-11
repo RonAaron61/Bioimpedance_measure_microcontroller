@@ -68,7 +68,7 @@ after using wein's bridge oscillator I want to test the same with ad9833 module 
 
 ## Schematic 
 
-![Schematic_BIoimpedance2_2023-10-11](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/e5651ff7-4b1f-4b83-9be4-d1899abf191b)
+![Schematic_BIoimpedance2_2023-10-11 (1)](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/3d252a6d-891e-4264-bf06-23ac05744445)
 
 
 ## Results
