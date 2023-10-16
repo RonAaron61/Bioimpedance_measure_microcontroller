@@ -136,6 +136,4 @@ Result:
 
 After trying with both ad9833 and wien bridge oscillator, I then decide to use the AD9833. Then I try to implement this circuit to control servo motor based on the angle of my hand
 
-Result:
-https://www.youtube.com/watch?v=
-[![youtube](http://img.youtube.com/vi/hNxc7NsJVV0&list=PLHH_1Tq-aAKkUcUrCIPMm4iYUpwYScwC3&index=1/0.jpg)](https://youtu.be/hNxc7NsJVV0?si=vREEqcHBl0VcCDHA)
+Result: [youtube](https://youtu.be/hNxc7NsJVV0?si=vREEqcHBl0VcCDHA)
