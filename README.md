@@ -1,9 +1,8 @@
 # Bioimpedance_measure_microcontroller
 Measuring bioimpedance using a microcontroller
 
-*Note: this project is not done
 
-A tool for measuring a person's bioimpedance, using a microcontroller as a signal processor and reader of measurement results, and displays it. The device that is made consists of a signal generator that uses a Wien bridge oscillator circuit to produce a 33 kHz sine wave signal, then VCCS to convert the input voltage into a current source so that it is safe when it enters the body, then the signal is read using an instrument amplifier as an amplifier so that it is easy to read, and converted to a DC signal for reading
+A tool for measuring a person's bioimpedance, using a microcontroller as a signal processor and reader of measurement results, and displaying it. The device that is made consists of a signal generator that uses a Wien bridge oscillator circuit to produce a 33 kHz sine wave signal, then VCCS to convert the input voltage into a current source so that it is safe when it enters the body, and then the signal is read using an instrument amplifier as an amplifier so that it is easy to read, and converted to a DC signal for reading. After trying, this tool can be used as an angle estimation on the human hand to control robotic, and I tried to control the servo motor.
 
 
 In this project, I created 2 different circuits, one using [wien bridge oscillator](#using-wiens-bridge-oscillator) and using [AD9833](#using-AD9833) module.
@@ -134,6 +133,6 @@ Result:
 
 # Implementation
 
-After trying with both ad9833 and wien bridge oscillator, I then decide to use the AD9833. Then I try to implement this circuit to control servo motor based on the angle of my hand
+After trying with both the AD9833 and Wien bridge oscillator, I decided to use the AD9833 because it is more stable and easier to control the frequency. As you can see above when I bend or straighten my hand the impedance also changes, so I try to implement this circuit as an estimation of the angle to control the servo motor based on the angle of my hand
 
-Result: [youtube](https://youtu.be/hNxc7NsJVV0?si=vREEqcHBl0VcCDHA)
+Result: [YouTube](https://youtu.be/hNxc7NsJVV0?si=vREEqcHBl0VcCDHA)
