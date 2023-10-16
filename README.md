@@ -6,13 +6,19 @@ Measuring bioimpedance using a microcontroller
 A tool for measuring a person's bioimpedance, using a microcontroller as a signal processor and reader of measurement results, and displays it. The device that is made consists of a signal generator that uses a Wien bridge oscillator circuit to produce a 33 kHz sine wave signal, then VCCS to convert the input voltage into a current source so that it is safe when it enters the body, then the signal is read using an instrument amplifier as an amplifier so that it is easy to read, and converted to a DC signal for reading
 
 
-In this project, I created 2 different circuits, one using [wien bridge oscillator](#using-weins-bridge-oscillator) and using [AD9833](#using-AD9833) module.
+In this project, I created 2 different circuits, one using [wien bridge oscillator](#using-wiens-bridge-oscillator) and using [AD9833](#using-AD9833) module.
 
-for the full documentation: Using ['wien's bridge oscillator'](WienBridge.md) and using ['AD9833'](AD9833.md)
+for the full documentation: Using [wien's bridge oscillator](WienBridge.md) and using [AD9833](AD9833.md)
 
 ---
 
-# Using wein's bridge oscillator
+- [Wien bridge oscillator](#using-weins-bridge-oscillator)
+- [AD9833](#using-AD9833)
+- [Implementation](#Implementation)
+
+---
+
+# Using wien's bridge oscillator
 
 
 ## Schematic 
@@ -125,3 +131,11 @@ Result:
 Result:
 
 ![lip4](https://github.com/RonAaron61/Bioimpedance_measure_microcontroller/assets/105662575/722dc10b-3eee-422c-8786-bf21f573499a)
+
+# Implementation
+
+After trying with both ad9833 and wien bridge oscillator, I then decide to use the AD9833. Then I try to implement this circuit to control servo motor based on the angle of my hand
+
+Result:
+https://www.youtube.com/watch?v=
+[![youtube](http://img.youtube.com/vi/hNxc7NsJVV0&list=PLHH_1Tq-aAKkUcUrCIPMm4iYUpwYScwC3&index=1/0.jpg)](https://youtu.be/hNxc7NsJVV0?si=vREEqcHBl0VcCDHA)
