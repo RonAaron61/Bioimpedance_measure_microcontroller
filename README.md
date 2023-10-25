@@ -66,9 +66,9 @@ for the full documentation: Using [wien's bridge oscillator](WienBridge.md) and 
 
 # Using AD9833
 
-A tool for measuring a person's bioimpedance, using a microcontroller as a signal processor and reader of measurement results, and displays it. The device that is made consists of a signal generator that uses a AD9833 module to produce a 50 kHz sine wave signal, then VCCS to convert the input voltage into a current source so that it is safe when it enters the body, then the signal is read using an instrument amplifier as an amplifier so that it is easy to read, and converted to a DC signal for reading. It can read resistance/impedance from 82 Ω - 1 kΩ on ±3.25 V supply, and can also read the bioimpedance from human skin and can detect flexion and relax movement. But curently based on the experiment it still have some limitations such as it can only detect 82 Ω - 1 KΩ of impedance, above that the signal will be cuted, and bellow that the ADC can't read it because it to small. But this can be fixed by using higher supply, because currently it used around ±3.2V.
+A tool for measuring a person's bioimpedance, using a microcontroller as a signal processor and reader of measurement results, and displays it. The device that is made consists of a signal generator that uses a AD9833 module to produce a 50 kHz sine wave signal, then VCCS to convert the input voltage into a current source so that it is safe when it enters the body, then the signal is read using an instrument amplifier as an amplifier so that it is easy to read, and converted to a DC signal for reading. It can read resistance/impedance from 82 Ω - 1 kΩ on ±3.25 V supply, and can also read the bioimpedance from human skin and can detect flexion and relaxation movement. But curently based on the experiment it still has some limitations such as it can only detect 82 Ω - 1 KΩ of impedance, above that the signal will be cuted, and below that the ADC can't read it because it to small. But this can be fixed by using a higher supply because currently it used around ±3.2V.
 
-after using wein's bridge oscillator I want to test the same with ad9833 module as the function generator to produce sine wave. The schamatic is still mostly the same
+after using wein's bridge oscillator I want to test the same with ad9833 module as the function generator to produce a sine wave. The schematic is still mostly the same
 
 
 ## Schematic 
@@ -136,3 +136,5 @@ Result:
 After trying with both the AD9833 and Wien bridge oscillator, I decided to use the AD9833 because it is more stable and easier to control the frequency. As you can see above when I bend or straighten my hand the impedance also changes, so I try to implement this circuit as an estimation of the angle to control the servo motor based on the angle of my hand
 
 Result: [YouTube](https://youtu.be/hNxc7NsJVV0?si=vREEqcHBl0VcCDHA)
+
+[![Alt text](https://img.youtube.com/vi/hNxc7NsJVV0/0.jpg)](https://www.youtube.com/watch?v=hNxc7NsJVV0)
