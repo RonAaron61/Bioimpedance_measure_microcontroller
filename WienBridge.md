@@ -1,7 +1,6 @@
 # Bioimpedance_measure_microcontroller
 Measuring bioimpedance using a microcontroller
 
-*Note: this project is not done
 
 A tool for measuring a person's bioimpedance, using a microcontroller as a signal processor and reader of measurement results, and displays it. The device that is made consists of a signal generator that uses a Wien bridge oscillator circuit to produce a 33 kHz sine wave signal, then VCCS to convert the input voltage into a current source so that it is safe when it enters the body, then the signal is read using an instrument amplifier as an amplifier so that it is easy to read, and converted to a DC signal for reading
 
